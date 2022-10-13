@@ -1,0 +1,25 @@
+$color__red:rgb(168, 0, 0);
+$fone__title: 19px;
+
+
+.container {
+    background-color: $color__red;
+    font-size: $fone__title;
+}
+h1{
+    &:hover + p {
+        color: chartreuse;
+     }
+    }
+
+.card{
+    margin-left: 80px;
+    margin-top: 100px;
+
+}
+
+.container__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
